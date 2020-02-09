@@ -12,6 +12,16 @@
             padding-bottom: 4.5rem
         }
     }
+
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+
+        @mixin atLarge {
+            padding-bottom: 4.5rem
+        }
+    }
+
+
     
 
     &--blue {
@@ -19,14 +29,14 @@
         color: #fff;
     }
 
-    @mixin atMedium {
+    @mixin atLarge {
         &--testimonials {
             background: url('assets/images/testimonials-bg.jpg') top center no-repeat;
             background-size: cover;
         }
     }
 
-    &__testimonial {
+    &--testimonials {
         background-color: #e0e6ef;
     }
 
