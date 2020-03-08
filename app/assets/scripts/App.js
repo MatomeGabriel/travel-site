@@ -5,8 +5,6 @@ import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 
 
-
-
 new MobileMenu();
 new StickyHeader();
 
